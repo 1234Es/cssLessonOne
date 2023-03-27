@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Source+Sans+Pro&display=swap');
+
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: darkblue;
+    color: #DAD7CD;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: grey;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DAD7CD;
+    background-color: aliceblue;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    padding: 12px;
+}
+/* * How to style by attribute value
+
+    section[title="Company Info"] {
+    background-color: beige;
+}
+
+How to style by attribute value
+a[href="#home"] {
+    color: black;
+    background-color: aqua;
+}
+
+a[href="#about"] {
+    color: white;
+    background-color: green;
+}
+
+a[href="#contact"] {
+    color: blue;
+    background-color: yellow;
+} */
+main section {
+    padding: 12px;
+    margin-top: 16px;
+    background-color: black;
+    border: solid white 1px;
+}
+
+footer {
+    background-color: aquamarine;
+    color: green;
+}
+
+#home h2 {
+    color: aqua;
+}
+
+footer a {
+    color: black;
+}
+
+
+footer a:hover {
+    background-color: black;
+    color: #DAD7CD;
+}
